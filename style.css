@@ -1,0 +1,167 @@
+body{
+  max-width: 800px;
+  margin: auto;
+  
+}
+
+
+
+  .row {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+#Bio{    
+  background:url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  max-width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content:flex-end;
+  flex-direction: column;
+  font-family: 'Abril Fatface';
+  line-height: 0;
+  color: #222;
+  padding-left: 100px;
+  margin-top: 70px;
+  
+}
+
+nav {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    background-color: #444;
+    height: 70px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Josefin Sans';
+  }
+
+a{
+  color: lightgrey;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+    color: white;
+  }
+
+ #Bio, blockquote {
+    width: 40%;
+  }
+
+section{
+  width: 60%;
+  margin-left:30px;
+  margin-top: 50px;
+   font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 16px;
+ 
+}
+
+#BioText{
+  max-width: 60%;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 70px;
+  
+}
+
+ul{
+  list-style-type: square;
+}
+
+
+blockquote{
+  max-width: 650px;
+  margin: auto;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: white;
+  text-align: left;
+  position: relative;
+  }
+
+blockquote p {
+    padding: 15px;
+    background: #444;
+    font-family: 'Abril Fatface';
+    margin-left: 0px;
+    font-size: 35px;
+    letter-spacing: 0.8px;
+    padding: 20px;
+ } 
+
+  blockquote p::before {
+    content: '”';
+    font-size: 60px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -8px;
+    left: 0;
+     }
+   
+h2{
+  font-variant-caps: all-small-caps;
+  font-size: 24px; 
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  letter-spacing: 0.9px;
+  padding-top: 5px;
+  padding-bottom:0px
+}  
+     
+h3{
+  padding-bottom:8px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  
+ 
+  
+}  
+
+h4{
+  padding-top:20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  
+  
+  
+}
+
+h1{padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  
+  
+}
+  
+em{
+  font-family: 'Merriweather', sans-serif;
+  font-size:14px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#Line{
+  height:5px;
+  background-color:#444;
+  margin: 40px 0px 30px 0px;
+}
